@@ -1,0 +1,41 @@
+# Other group members (only track rkowlu + results)
+prashanth/
+vamsi/
+bin/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+*.so
+
+# Conda / venv
+rkowlu/miniconda3/
+rkowlu/*/miniconda3/
+.env/
+venv/
+
+# Model weights & large binaries (don't push to GitHub)
+*.pth
+*.tar
+*.pkl
+*.onnx
+
+# Large data / outputs
+*.npy
+rkowlu/DeepLabV3Plus-Pytorch/RoadAnomaly/
+rkowlu/DeepLabV3Plus-Pytorch/**/test_images/
+rkowlu/segformer/**/test_images/
+rkowlu/DeepLabV3Plus-Pytorch/checkpoints/
+rkowlu/DeepLabV3Plus-Pytorch/checkpoints_bak/
+rkowlu/DeepLabV3Plus-Pytorch/cityscapes
+rkowlu/DeepLabV3Plus-Pytorch/test_results
+rkowlu/DeepLabV3Plus-Pytorch/VOCdevkit
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

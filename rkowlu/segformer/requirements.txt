@@ -1,0 +1,8 @@
+# SegFormer OOD pipeline (same methods as DeepLabV3Plus-Pytorch)
+torch>=1.9
+torchvision
+transformers>=4.20
+Pillow
+numpy
+scikit-learn
+tqdm
